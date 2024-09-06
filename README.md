@@ -1,1 +1,8 @@
-# Decision-Support-System-for-Barter-in-Construction-Company
+# Decision Support System for Barter in Construction Company
+September 2024
+
+This Python script performs a detailed asset-to-debt assignment analysis, utilizing pandas and numpy libraries for data processing. The code starts by loading asset and debt data from Excel files, specifically focusing on calculating the total values of assets and debts. Following data import, the script sorts both asset and debt data by priority to ensure proper handling according to predefined criteria.
+
+The core functionality of the script is the assignment algorithm, which matches assets to debts based on availability and priority. It iteratively processes each debt, attempting to fully or partially satisfy it with available assets. The algorithm calculates and tracks the total value assigned to each debt, adjusting asset availability accordingly. The results are captured in a DataFrame, providing insights into the units assigned and their corresponding values. The script also computes the remaining values for both assets and debts, displaying a summary of unused assets and outstanding debt amounts. Finally, the report includes a detailed summary of the total assigned value and remaining assets, aiding in financial and resource planning.
+
+This approach not only streamlines the assignment process but also scales efficiently with larger datasets, making it invaluable in scenarios involving big data where individual decision-making becomes impractical. By automating the allocation and providing precise, timely results, this method functions effectively as a Decision Support System (DSS), enhancing both the speed and accuracy of resource management decisions.
